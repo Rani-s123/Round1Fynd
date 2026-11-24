@@ -3,6 +3,7 @@
 A single-page checkout with two synthetic products and a Playwright browser test suite. No backend, database, payments, or external services; the page is one self-contained HTML file (no CDN fonts, scripts, or remote images; the images are inlined).
 
 **Live demo:** https://fyndround.vercel.app (static page hosted on Vercel; the Playwright suite passes 6 of 6 against it).
+**Demo video:** [demo/shopkart-demo.webm](demo/shopkart-demo.webm), about 65 s with captions, recorded on the live site (`node tools/record-demo.js <url>` records it again).
 
 ## What the page does
 
