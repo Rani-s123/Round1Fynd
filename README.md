@@ -2,6 +2,8 @@
 
 A single-page checkout with two synthetic products and a Playwright browser test suite. No backend, database, payments, or external services; the page is one self-contained HTML file (no CDN fonts, scripts, or remote images; the images are inlined).
 
+**Live demo:** https://fyndround.vercel.app (static page hosted on Vercel; the Playwright suite passes 6 of 6 against it).
+
 ## What the page does
 
 - Two products with fixed prices: Wireless Headphones (₹1,999) and Smart Watch (₹2,499).
