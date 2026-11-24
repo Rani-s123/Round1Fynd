@@ -1,0 +1,15 @@
+﻿PASS  M1  empty cart blocked, name kept
+PASS  M1b both messages at once
+PASS  M2  double-click: one confirmation, one reference
+PASS  M3  five clicks plus submit: one confirmation
+PASS  M3b Enter key places exactly one order
+PASS  M4  fixed page: totals agree  (screen ₹2,499, confirmation ₹2,499)
+PASS  DEF-1 reproduces without the fix (totals disagree)  (screen ₹4,998, confirmation ₹2,499)
+PASS  M5  quantity capped at 10, minus disabled at 1  (qty 10, total ₹24,990)
+PASS  M6  HTML in name is plain text, no script runs
+PASS  M7  390 px wide: no horizontal overflow  (scrollWidth 390, innerWidth 390)
+PASS  M8  fixed page: no badge on an empty cart  (display none)
+PASS  DEF-3 reproduces without the fix (badge visible when empty)  (display grid)
+PASS  M9  new order starts clean and a second order succeeds
+PASS  M10 images render from a data: URL (no external files needed)  (widths 384,384,384)
+14 of 14 checks as expected

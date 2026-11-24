@@ -1,0 +1,16 @@
+{
+  "name": "mini-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShopKart mini checkout page with Playwright browser tests",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "manual": "node tools/manual-checks.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

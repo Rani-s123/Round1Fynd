@@ -1,0 +1,11 @@
+﻿
+Running 6 tests using 4 workers
+
+  ok 4 [chromium] › tests\checkout.spec.js:31:1 › 2. a blank name blocks checkout, shows a clear message, and keeps the cart (4.2s)
+  ok 1 [chromium] › tests\checkout.spec.js:55:1 › 3. changing quantity updates the line total and order total exactly (4.2s)
+  ok 2 [chromium] › tests\checkout.spec.js:14:1 › 1. successful checkout shows exactly one confirmation with a reference (4.5s)
+  ok 3 [chromium] › tests\checkout.spec.js:76:1 › regression DEF-3: cart badge is hidden when empty and after order, shown with items (4.8s)
+  ok 6 [chromium] › tests\checkout.spec.js:117:1 › regression DEF-1: double-click gives one confirmation and the cart is locked while placing (3.0s)
+  ok 5 [chromium] › tests\checkout.spec.js:95:1 › starting a new order after confirmation resets the cart and name (3.7s)
+
+  6 passed (11.1s)
